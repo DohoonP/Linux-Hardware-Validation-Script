@@ -1,16 +1,7 @@
+# Show informations about machine hardware.
+
 #!/usr/bin/env bash
-# ------------------------------------------------------------------------ #
-# Script Name:   hardware_machine.sh 
-# Description:   Show informations about machine hardware.
-# Written by:    Amaury Souza
-# Maintenance:   Amaury Souza
-# ------------------------------------------------------------------------ #
-# Usage:         
-#       $ ./hardware_machine.sh
-# ------------------------------------------------------------------------ #
-# Bash Version:  
-#              Bash 4.4.19
-# ------------------------------------------------------------------------ #
+
 
 function menuprincipal () {
 clear
@@ -20,14 +11,14 @@ echo $0
 echo " "
 echo "Choose an option below!
 
-        1 - Verify desktop processor
-	2 - Verify system kernel
-	3 - Verify installed softwares
-	4 - Operation system version
-       	5 - Verify desktop memory
-	6 - Verify serial number
-	7 - Verify system IP	 
-	0 - Exit"
+								    1 - Verify desktop processor
+									2 - Verify system kernel
+									3 - Verify installed softwares
+									4 - Operation system version
+								    5 - Verify desktop memory
+									6 - Verify serial number
+									7 - Verify system IP	 
+									0 - Exit"
 echo " "
 echo -n "Chosen option: "
 read opcao
